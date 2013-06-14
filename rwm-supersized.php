@@ -10,9 +10,10 @@ Author URI: http://www.realworldmedia.com.au/
 */
 
 /**
- * @package RWM Supersized
+ * @package RWM Supersized Bootstrap / Loader File
  * @subpackage RWM Framework
  * @author Randolph
+ * @since 1.0
  */
 
 define('RWMss_VERSION', '1.0');

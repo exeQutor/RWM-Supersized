@@ -22,10 +22,6 @@ if ( ! function_exists('rwm_supersized')) {
             )
         ));
         
-        /*echo '<pre>';
-        print_r($attachments);
-        echo '</pre>';*/
-        
         return $attachments;
     }
 }

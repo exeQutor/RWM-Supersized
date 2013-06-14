@@ -13,8 +13,6 @@ jQuery(document).ready(function($) {
             {
                 image: '<?php echo $slide->guid; ?>',
                 title: '<?php echo $slide->post_title; ?>',
-                thumb: '',
-                url: ''
             },
         <?php endforeach; ?>
         ]

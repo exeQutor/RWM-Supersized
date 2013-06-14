@@ -10,7 +10,7 @@
 class RWMss_Main {
     
     function __construct() {
-        add_post_type_support('attachment', 'custom-fields');
+        //add_post_type_support('attachment', 'custom-fields');
         add_action('wp_enqueue_scripts', array($this, 'wp_enqueue_scripts'));
         add_action('wp_head', array($this, 'wp_head'));
         add_filter('attachment_fields_to_edit', array($this, 'attachment_fields_to_edit'), null, 2);
