@@ -9,7 +9,7 @@
 
 if ( ! function_exists('rwm_supersized')) {
     function rwm_supersized() {
-        $attachments = get_posts(array(
+        return get_posts(array(
             'post_type' => 'attachment',
             'posts_per_page' => -1,
             'post_status' => 'any',
@@ -21,8 +21,6 @@ if ( ! function_exists('rwm_supersized')) {
                 )
             )
         ));
-        
-        return $attachments;
     }
 }
 

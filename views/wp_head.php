@@ -1,4 +1,5 @@
 <style type="text/css">
+    /* Add your custom styling here.. */
 </style>
 <script>
 jQuery(document).ready(function($) {
